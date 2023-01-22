@@ -1,16 +1,10 @@
-Topsis Value Calculator
-
-## Installation
-$ pip install topsis_102003161
-
-The package consists of two methods :
-1). topsis(filename,weights,impacts,result_filename) : It calculates the topsis value and gives rank. The data is saved as a csv file with name==result_filename.
-
-2). checkParameters() : To run the topsis function by providing input from the command line use this method.
-
-Command Line syntax :
-$ python <script_name> <input_data_file> <weights> <impacts> <output_data_file>
-
-Note : weights and impacts should be provided as strings and input/output data file should be csv.
-
-License -> MIT
+This package is implementation of multi-criteria decision analysis using topsis.
+This package will accept three arguments during file execution:
+1. dataset.csv //file which contains the models and parameters
+2. string of weights separated by commas(,)
+3. string of requirements (+/-) separated by commas(,)
+// important
+install pandas,sys,operator and math libraries before installing this
+//
+You can install this package using following command
+pip install topsis_Hunar_102003161
